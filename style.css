@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #879478; 
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+}
+
+.nav-list {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+.nav-list li {
+  margin: 0 20px; 
+}
+
+.nav-list a {
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold; 
+  transition: color 0.3s; 
+}
+
+.nav-list a:hover {
+  color: #635e45; 
+}
+
+
+.header {
+  display: flex; 
+  align-items: center; 
+  background-color: #757c6a; 
+  padding: -10px 30px; 
+}
+
+.logos img {
+  height: 40px; 
+  margin-right: 90px; 
+}
+
+.navbar {
+  flex-grow: 1; 
+}
+
+.nav-list {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+
+.nav-list li {
+  margin: 0 20px; 
+}
+
+.nav-list a {
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold;
+  transition: color 0.3s; 
+}
+
+.container {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end; 
+  padding: 20px;
+  text-align: right; 
+}
+
+
+.left-image {
+  width: 150px; 
+  height: auto; 
+  margin-right: 80px;
+}
+
+.text-content {
+  text-align: right; 
+  max-width: 600px; 
+}
+
+p {
+  margin: 0 0 10px; 
+}
+.list-container{
+margin-right: 200px; /* Сдвиг списка вправо */
+text-align: right; /* Выравнивание контейнера вправо */
+}
+
+ul {
+list-style-type: none; /* Убираем маркеры списка */
+padding: 0; /* Убираем отступы по умолчанию */
+margin: 0; /* Убираем отступы по умолчанию */
+}
+
+li {
+padding: 5px; /* Отступы между элементами списка */
+}
